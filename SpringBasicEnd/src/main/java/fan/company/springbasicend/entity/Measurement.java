@@ -9,9 +9,10 @@ import javax.persistence.Entity;
 
 
 @EqualsAndHashCode(callSuper = true)
-@AllArgsConstructor
 @Data
 @Entity
 public class Measurement extends AbsAllEntity {
 
+    public Measurement() {
+    }
 }

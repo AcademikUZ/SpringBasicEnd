@@ -18,5 +18,6 @@ public class Attachment extends AbsEntity {
 
     private long size;
     private String contentType;
+    private String originalName;
 
 }

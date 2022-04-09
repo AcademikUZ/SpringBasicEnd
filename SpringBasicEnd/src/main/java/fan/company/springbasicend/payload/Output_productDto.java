@@ -15,6 +15,6 @@ public class Output_productDto {
 
     private Double price;
 
-    private Long inputId;
+    private Long outputId;
 
 }

@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import java.util.Set;
@@ -20,7 +21,9 @@ public class Users extends AbsForIdEntity {
     private String firstName;
     private String lastName;
     private String code;
+    @Column(unique = true)
     private String password;
+    @Column(unique = true)
     private String phoneNumber;
     private boolean active;
 

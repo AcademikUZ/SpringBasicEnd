@@ -24,7 +24,7 @@ public class Input_product extends AbsForIdEntity {
 
     private Double price;
 
-    private Date date;
+    private Date expire_date;
 
     @ManyToOne
     private Input input;

@@ -26,6 +26,6 @@ public class Output_product extends AbsForIdEntity {
     private Double price;
 
     @ManyToOne
-    private Input input;
+    private Output output;
 
 }

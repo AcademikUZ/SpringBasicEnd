@@ -17,7 +17,7 @@ public class Input_productDto {
 
     private Double price;
 
-    private Date date;
+    private Date expire_date;
 
     private Long inputId;
 
