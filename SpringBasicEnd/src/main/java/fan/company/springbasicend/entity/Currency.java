@@ -11,7 +11,6 @@ import javax.persistence.Entity;
 
 @EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
-@NoArgsConstructor
 @Data
 @Entity
 public class Currency extends AbsAllEntity {

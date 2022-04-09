@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class ProductDto {
 
-    private Category category;
+    private Long categoryId;
     private String code;
     private Long photoId;
     private Long measurementId;

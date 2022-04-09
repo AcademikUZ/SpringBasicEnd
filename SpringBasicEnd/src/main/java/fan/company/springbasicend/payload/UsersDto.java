@@ -15,7 +15,7 @@ public class UsersDto {
     private String password;
     private String phoneNumber;
     private boolean active;
-    Set<Warehouse> warehouses;
+    private Long warehousesId;
 
 
 }
